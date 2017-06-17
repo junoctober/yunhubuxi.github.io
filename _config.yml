@@ -1,23 +1,37 @@
-# Site settings
-title: HyG
-email: gaohaoyang126@126.com
-description: 浩阳的博客 前端爱好者
-# > # this means to ignore newlines until "baseurl:"
-#   Write an awesome description for your new site here. You can edit this
-#   line in _config.yml. It will appear in your document head meta (for
-#   Google search results) and in your feed.xml site description.
 
-# baseurl: "" # the subpath of your site, e.g. /blog/
-# url: "http://yourdomain.com" # the base hostname & protocol for your site
-# twitter_username: jekyllrb
-github_username:  Gaohaoyang
-permalink: /:year/:month/:day/:title/
+exclude:
+  - "/vendor/"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "README.md"
+  - "LICENSE.md"
+  - "*.gemspec"
+
+keep_files:
+  - "CNAME"
+  - ".git"
+  - ".gitignore"
+
+
+# Site settings
+title: Airspace
+subtitle: "A free HTML5 agency template"
+url: "http://luminousrubyist.github.io" # the base hostname & protocol for your site
+# baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
+baseurl: "/airspace-jekyll"
+cover: "/assets/cover.png"
+logo: "/assets/logo.png"
 
 # Build settings
 markdown: kramdown
 
-# highlight
-# 本地用rouge, github上用pygments
-# highlighter: pygments
-# highlighter: rouge
-# highlighter: false
+# Google analytics
+# ga_tracking_id: "UA-XXXX-1"
+
+# Category descriptions (for archive pages)
+descriptions:
+  - cat: jekyll
+    desc: "Posts describing Jekyll setup techniques."
+
+  - cat: dummy
+    desc: "Just some placeholder posts, lorem ipsum and the rest."
