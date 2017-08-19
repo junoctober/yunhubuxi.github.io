@@ -1,85 +1,34 @@
-# Jekyll-Jacman
+# Bef is a responsive jekyll theme
 
-**中文 | [English](/README_en.md)**
+Bef - Blog Enjoy Freedom is a responsive jekyll theme which created to be simple and freedom.
 
-Jekyll-Jacman 是为 [Jekyll](http://jekyllrb.com) 设计的一款清新且具有响应式的主题，拥有更丰富的特性并支持了很多的国内服务。Jacman 始于 [Hexo Jacman](https://github.com/wuchong/jacman) 移植而来。
+## Demo
 
- * [主题演示](http://simpleyyt.github.io/jekyll-jacman/)
- * [Yitao's Blog](http://simpleyyt.github.io)
- * [如何使用 Jacman 主题](http://simpleyyt.github.io/jekyll-jacman/jekyll/2015/09/20/how-to-use-jacman)
+Check the theme in action [Demo](https://artemsheludko.github.io/bef/)
 
-## 本地搭建
+The main page would look like this:
 
-确保已安装`Ruby 2.1.0` 或更高版本：
+![Main page preview](https://github.com/artemsheludko/bef/blob/master/assets/img/bef_main_page.jpg?raw=true)
 
-```sh
-ruby --version
-```
+The post page would look like this:
 
-安装`Bundler`：
+![Post page preview](https://github.com/artemsheludko/bef/blob/master/assets/img/bef_post.jpg?raw=true)
 
-```sh
-gem install bundler
-```
+## Features
 
-下载 Jacman 主题：
+- [Google Fonts](https://fonts.google.com/)
+- [Font Awesome](http://fontawesome.io/)
+- [Vide](http://vodkabears.github.io/vide/)
+- [Disqus](https://disqus.com/)
+- [MailChimp](https://mailchimp.com/)
+- [Formspree!](https://formspree.io/)
+- [Analytics](https://analytics.google.com/analytics/web/)
+- Share Buttons, Recent Post, Section Author, Contact and more...
 
-```sh
-git clone https://github.com/Simpleyyt/jekyll-jacman.git
-cd jekyll-jacman
-```
+## Installation:
 
-安装依赖：
+Fork the ``master`` branch and delete ``gh-pages`` branch in it. This is important because ``gh-pages`` branch is used here only to host the blog. You should be using the master branch as the source and create a fresh ``gh-pages`` branch.
 
-```sh
-bundle install
-```
+### License
 
-运行 Jekyll：
-
-```sh
-bundle exec jekyll server
-```
-
-更多细节可以参考：[Setting up your GitHub Pages site locally with Jekyll](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)
-
-## 功能
-
-- **菜单 menu**  
- 主导航菜单
-- **控件 widget**  
- 侧边栏的控件。包括：Github 名片	、分类、标签、RSS、友情链接、微博秀。
-- **图片相关 Image**  
- 设置网站图标、网站logo、作者头像、博客顶部大图等。还提供了多种图片样式`img-logo`,`img-topic`,`img-center`等。
-- **首页模式 index**  
- 主题提供了两种首页展示模式。
-- **作者 author**  
- 作者信息，主要用于展示网站右下角的社交网络链接。包括：微博、豆瓣、知乎、邮箱、GitHub、StackOverflow、Twitter、Facebook、Linkedin、Google+。
-- **目录 toc**  
- 在文章中和侧边栏可以显示目录。
-- **评论 comments**  
- 支持 [多说](http://duoshuo.com/) & [disqus](https://disqus.com/) 评论。
-- **分享 jiathis**  
- 启用 内建分享工具 或 [加网](http://www.jiathis.com/) 分享系统。
-- **网站统计 Analytiscs**  
- 支持 [谷歌统计](http://www.google.com/analytics/) & [百度统计](http://tongji.baidu.com/) & [CNZZ站长统计](http://www.cnzz.com/)。
-- **Search**  
- 支持 [谷歌自定义搜索](https://www.google.com/cse/ ) & [百度站内搜索](http://zn.baidu.com/)  &[微搜索](http://tinysou.com/)。
-- **totop**  
- 回到顶部。
-- **rss**  
- RSS 订阅链接。
-- **fancybox**  
- 图片查看的 [Fancybox](http://fancyapps.com/fancybox/) 工具。
-- **其他**
- 你可以设置侧边栏在博文页面中不显示。
-
-## 协议
-
-[MIT](/LICENSE)
-
-## 捐赠
-
-支付宝捐赠链接还是要有的，万一真的有人捐呢。
-
-![支付宝扫码捐赠](http://p1.bpimg.com/567571/9a4a158daee8aa69.png)
+GNU General Public License v3.0
